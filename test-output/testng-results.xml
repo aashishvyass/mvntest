@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32145" started-at="2017-12-07T10:45:31Z" finished-at="2017-12-07T10:46:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32145" started-at="2017-12-07T10:45:31Z" finished-at="2017-12-07T10:46:03Z">
+      <class name="RTPL.mvtest.Exp">
+        <test-method status="PASS" signature="testgooglrsearch()[pri:0, instance:RTPL.mvtest.Exp@1bce4f0a]" name="testgooglrsearch" duration-ms="32124" started-at="2017-12-07T16:15:31Z" finished-at="2017-12-07T16:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgooglrsearch -->
+      </class> <!-- RTPL.mvtest.Exp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
