@@ -1,7 +1,8 @@
 package RTPL.mvtest;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -10,9 +11,12 @@ import org.testng.annotations.Test;
 //Test 
 @Test
 public void testgooglrsearch(){
-	System.setProperty("webdriver.gecko.driver", "F://geckodriver-v0.13.0-win64//geckodriver.exe");
+	//System.setProperty("webdriver.gecko.driver", "F://geckodriver-v0.13.0-win64//geckodriver.exe");
 
-WebDriver driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "F://MY DOWNLOADS//chromedriver_win32//chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+
+	//WebDriver driver = new FirefoxDriver();
 //it will open the goggle page
 driver.get("http://google.in");
 
