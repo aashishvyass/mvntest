@@ -14,7 +14,7 @@ public void testgooglrsearch(){
 	//System.setProperty("webdriver.gecko.driver", "F://geckodriver-v0.13.0-win64//geckodriver.exe");
 
 	System.setProperty("webdriver.chrome.driver", "F://MY DOWNLOADS//chromedriver_win32//chromedriver.exe");
-	WebDriver driver = new ChromDriver();
+	WebDriver driver = new ChromeDriver();
 
 	//WebDriver driver = new FirefoxDriver();
 //it will open the goggle page
