@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32145" started-at="2017-12-07T10:45:31Z" finished-at="2017-12-07T10:46:03Z">
+  <suite name="Default suite" duration-ms="13580" started-at="2018-01-24T19:37:14Z" finished-at="2018-01-24T19:37:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32145" started-at="2017-12-07T10:45:31Z" finished-at="2017-12-07T10:46:03Z">
+    <test name="Default test" duration-ms="13580" started-at="2018-01-24T19:37:14Z" finished-at="2018-01-24T19:37:27Z">
       <class name="RTPL.mvtest.Exp">
-        <test-method status="PASS" signature="testgooglrsearch()[pri:0, instance:RTPL.mvtest.Exp@1bce4f0a]" name="testgooglrsearch" duration-ms="32124" started-at="2017-12-07T16:15:31Z" finished-at="2017-12-07T16:16:03Z">
+        <test-method status="PASS" signature="testgooglrsearch()[pri:0, instance:RTPL.mvtest.Exp@3bfdc050]" name="testgooglrsearch" duration-ms="13564" started-at="2018-01-25T01:07:14Z" finished-at="2018-01-25T01:07:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgooglrsearch -->
